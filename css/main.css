@@ -1,0 +1,15 @@
+
+.circle{
+  transition: background-color 0.3s ease-in-out;
+}
+.circle:hover{
+  background-color: #79C7C7 !important;
+}
+.profil-img{
+  animation: rotating 8s infinite linear;
+}
+@keyframes rotating {
+	to { 
+    transform: rotate(360deg); 
+  }
+}
